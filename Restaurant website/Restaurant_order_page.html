@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Order page</title>
+<style>
+	body, html {
+           height: 100%;
+   }
+* {
+  box-sizing: border-box;
+}
+.bg-image {
+  background-image: url("main_food.jpg");
+  filter: blur(3px);
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.bg-text {
+  background-color: rgb(0,0,0);
+  background-color: rgba(0,0,0, 0.4);
+  color: white;
+  font-size: 24px;
+  font-weight: bolder;
+  border: 3px solid #f1f1f1;
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  width: 40%;
+  height: 50%;
+  padding: 5px;
+  text-align: center;
+}
+a{
+	color:yellow;
+}
+.para{
+	position: absolute;
+	top: 120%;
+	left: 25%;
+	color: white;
+	font-weight: 50%;
+	font-size:18px;
+}
+</style>
+</head>
+<body>
+<div class="bg-image"></div>
+
+<div class="bg-text">
+  <h1>Order Now!</h1>
+  <p>Please <a href="Restaurant_order_page.html">login</a>/<a href="Restaurant_form">Register</a> to order.</p>
+  <form method="post" action="starter_food.jpg">
+  	<center>
+  	<label>Enter your name:</label>
+  	<input type="text" name="txtbox1"><br/>
+  	<br/>
+  	<label>Enter password:</label>
+  	<input type="password" name="pwd"><br/>
+  	<br/>
+  	<input type="submit" name="save">
+    </center>
+  </form>
+
+<p class="para"><u><u>AK RESTAURANT</u></u><br/>26654 3rd AVE S<br/>BIRMINGHAM,ALABAMA 35203<br/>PHONE: 4561597538<br/>EMAIL: akrestaurant@gmail.com<br/>HOURS: 10:30am-7:00pm<br/>Closed on Sundays</mark></p>
+</div>
+</body>
+</html>
